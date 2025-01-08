@@ -58,3 +58,39 @@
   color: rgb(255, 255, 255);
   font-size: 18px;
 }
+.card-section{
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.card-title {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.6;
+}
+.card-heading {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.card-title,
+.card-heading{
+  width: 620px;
+}
+.card-group{
+  display: flex;
+  gap: 20px;
+}
